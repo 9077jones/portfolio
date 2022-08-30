@@ -1,0 +1,15 @@
+*{
+    padding: 0%;
+    box-sizing: border-box;
+    margin: 0%;
+}
+.media h1{
+    text-transform: capitalize;
+    color: blue;
+}
+@media screen and (max-width: 480px) {
+.media h1{
+    color: blueviolet;
+    text-transform: uppercase;
+}
+}

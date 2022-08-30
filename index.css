@@ -1,0 +1,347 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    background-color: rgba(212, 224, 239, 0.716);
+}
+h2{
+    text-transform: capitalize;
+    font-size: xx-large;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sectionA img{
+    width: 170px;
+    height: 100%;
+}
+.sectionA1{
+    background-color: white;
+    margin-top: 5px;
+    text-align: center;
+}
+/* .evn{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+} */
+.sectionB{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.sectionB img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-right: 48px;
+}
+.sectionB h3{
+    margin-top: 30px;
+    letter-spacing: 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;    
+}
+.sectionB button{
+    width: 130px;
+    height: 35px;
+    margin-top: 25px;
+    background-color: orangered;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+    border-radius: 5%;
+    
+
+}
+
+.sectionB p{
+    font-size: larger;
+}
+
+ .sectionB h1{
+text-transform: uppercase;
+    color: orangered;
+     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-weight: 900;
+     font-size: 50px;
+}
+.id{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 15px;
+
+}
+.id button{
+    border-color: red;
+    padding: 12px;
+    color: orangered;
+}
+.id button:hover{
+    color: white;
+    background-color: black;
+}
+.id img{
+    border-radius: 50%;
+}
+.id p{
+    font-size: medium;
+}
+.sectionC{
+    padding: 8px;
+    border: 5px solid orangered;
+    width: 320px;
+    height: 312px;
+    background-color: orangered;
+}
+.sectionC h3{
+    text-transform: capitalize;
+    font-size: x-large;
+    letter-spacing: 3px;
+}
+.sectionC p{
+    font-size: x-large;
+    margin-left: 8px;
+}
+.sectionC h1{
+    text-transform: uppercase;
+    margin-left: 60px;
+}
+.sectionC button{
+    border: 3px solid crimson;
+    margin-left: 70px;
+    margin-top: 0px;
+}
+.sectionC img{
+    margin-left: 80px;
+}
+.me{
+    padding: 10px;
+    border: 5px solid salmon;
+    background-color: salmon;
+    width: 320px;
+    height: 312px;
+    color: black;
+}
+.me p{
+    font-size: larger;
+}
+.me h1{
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+.me button{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.me img{
+    margin-left: 70px;
+}
+.social{
+    padding: 8px;
+    border: 5px solid sandybrown;
+    width: 320px;
+    height: 312px;
+    background-color: sandybrown;
+    color: black;
+}
+.social h1{
+    margin-left: 19px;
+    text-transform: uppercase;
+       
+}
+.social p{
+    font-size: larger;
+}
+.social img{
+    width: 100px;
+    margin-left: 70px;
+}
+.social button{
+    padding: 12px;
+    margin-left: 70px;
+    margin-top: 50px;
+
+}
+.foot{
+    text-align: center;
+    background-color: burlywood;
+    width: 100%;
+    height: 170px;
+}
+.foot h4{
+    margin-top: -40px;
+    font-size: larger;
+}
+.foot h3{
+    padding: 50px;
+    margin-top: ;
+}
+@media screen and (min-width:300px) and (max-width: 850px) {
+    .sectionA1{
+        margin-top: 20px;
+        font-size: large;
+    }
+    .sectionA1 h2{
+        font-size: large;
+    }
+    .sectionB h3{
+        letter-spacing: 0px;
+    }
+    .sectionB h1{
+        color: red;
+        font-size: x-large;
+    }
+    .sectionB p{
+        font-size: small;
+    }
+    .sectionB button{
+        font-size: x-small;
+        letter-spacing: 0px;
+        width: 100px;
+        height: 20px;
+        margin-top: 10px;
+    }
+    .sectionB img{
+        width: 250px;
+        height: 250px;
+    }
+    .sectionB{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .id{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 10px;
+    }
+    .sectionC h1{
+        font-size: larger;
+    }
+    .sectionC img{
+        width: 70px;
+    }
+    
+    .sectionC p{
+        margin-left: 20px;
+        font-size: large;
+    }
+    .sectionC button{
+        font-size: x-small;
+        margin-top: 7px;
+        border: 0px;
+        padding: 3px;
+    }
+    .sectionC{
+     border-radius: 5px;
+    width: 254px;
+    height: 245px;
+    }
+    .me h1{
+        margin-left: 50px;
+        font-size: larger;
+    }
+    .me img{
+        width: 70px;
+    }
+    .me p{
+        margin-left: 30px;
+        font-size: small;
+    }
+    .me{
+        border-radius: 5px;
+        width: 300px;
+        height: 250px;
+        
+        
+    }
+    .me button{
+        margin-top: 10px;
+        padding: 3px;
+        font-size: x-small;
+        
+    }
+    .me{
+        height: 245px;
+        width: 254px;
+
+        
+    }
+    .social h1{
+        font-size:larger;
+    }
+    .social p{
+        font-size: medium;
+    }
+    .social button{
+        font-size: x-small;
+        padding: 3px;
+        margin-top: 7px;
+    }
+    .social{
+        border-radius: 5px;
+        height: 245px;
+        width: 254px;
+
+
+
+    }
+    .foot h4{
+        font-size:x-large
+    }
+    .foot p{
+        font-size:small
+    }
+    
+}
+@media screen and (min-width:900px) and (max-width: 1450px) {
+    .sectionA1 h2{
+        margin-top: -3opx;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: x-large;
+        font-weight: 800;
+    }
+    .sectionB img{
+        width: 300px;
+        margin-top: 20px;
+    }
+    .sectionB h1{
+        font-size:x-large larger;
+        font-weight: 300;
+    }
+    .sectionB h3{
+        font-size: xx-large;
+    }
+    .sectionB p{
+        font-size: x-large;
+    }
+    .sectionB button{
+        letter-spacing: 0;
+        width: 115px;
+        height: 35px;
+        color: black;
+        font-size: large;
+    }
+    .id {
+        display: flex;
+        flex-direction: row;
+    }
+    .id p{
+        font-size: larger;
+    }
+    .me button{
+        margin-top: 8px;
+    }
+    .social button{
+        margin-top: 10px;
+    }
+}
